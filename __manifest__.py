@@ -1,13 +1,13 @@
 {
-    'name': 'Template Addon',
-    'category': 'hidden',
-    'version': '10.x.x',
-    'summary': 'Summary the addon.',
-    'description': '''Description the addon'''
-                   ,
-    'depends': ['base'],
+    'name': 'Check SO',
+    'category': 'sale',
+    'version': '10.0',
+    'summary': 'Check if some sale in under cost.',
+    'description': '''Check if some sale in under cost''',
+    'author': 'Technoindo.com',
+    'depends': ['base', 'sale'],
     'data': [
-        ''
+        'views/dialog_warn.xml'
     ],
     'images': [''],
     'auto_install': False,
