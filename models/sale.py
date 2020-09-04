@@ -14,6 +14,6 @@ class SaleOrderLine(models.Model):
             return {
                 'warning': {
                     'title': 'Warning!',
-                    'message': 'Anda Menjual Produk ini dibawah harga modal'
+                    'message': 'ANDA MENJUAL PRODUK INI DIBAWAH HARGA MODAL!!!'
                 }
             }
