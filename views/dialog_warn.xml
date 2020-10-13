@@ -14,15 +14,4 @@
             </form>
         </field>
     </record>
-
-    <!-- <record id="add_onchange_in_price_unit" model="ir.ui.view">
-        <field name="name">sale.order.form</field>
-        <field name="model">sale.order</field>
-        <field name="inherit_id" ref="sale.view_order_form" />
-        <field name="arch" type="xml">
-            <xpath expr="//form[string='Sales Order']//sheet//notebook//page[string='Order Lines']//field[name='order_line']//form[string='Sales Order Lines']//group//group//field[name='price_unit']" position="attributes">
-                <attribute name="onchange">_check_price()</attribute>
-            </xpath>
-        </field>
-    </record> -->
 </odoo>

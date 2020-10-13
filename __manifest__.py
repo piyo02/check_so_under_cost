@@ -7,7 +7,8 @@
     'author': 'Technoindo.com',
     'depends': ['base', 'sale'],
     'data': [
-        'views/dialog_warn.xml'
+        'views/dialog_warn.xml',
+        'views/check_price_template.xml'
     ],
     'images': [''],
     'auto_install': False,
